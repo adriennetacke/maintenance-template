@@ -1,0 +1,108 @@
+body {
+    background-image: url("./assets/paintbrush.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    margin: 0;
+    height: 100vh;
+    width: 100vw;
+    z-index: 1;
+
+    font-family: 'Montserrat', sans-serif;
+
+    font-size: 1.3vh;
+    color: #231f20;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+h1, h3 {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #fff;
+    padding: 10px 14px;
+}
+
+h3, .timer {
+    margin: 0;
+}
+
+.main-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.lg-cta {
+    visibility: hidden;
+}
+
+.lg-cta > img {
+    width: 35%;
+    height: auto;
+}
+
+.logo {
+    background-color: #231f20;
+    padding: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.site-links {
+    display: flex;
+    flex-direction: row;
+}
+
+.site-links > a {
+    text-decoration: none;
+    color: #fff;
+    margin: 0px 15px;
+}
+
+.site-links > a:hover {
+    text-decoration: underline;
+}
+
+
+.notice {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding: 50px;
+}
+
+.footer {
+    z-index:2;
+}
+
+.footer > img {
+    width: 100%;
+    height: auto;
+}
+
+.timer {
+    background-color: #231f20;
+    color: #fff;
+    text-align: center;
+    font-size: 2.5vh;
+    font-family: 'Consolas';
+    padding: 10px 14px;
+}
+
+@media screen and (min-width: 1400px) {
+    .footer { 
+        display: none;
+    }
+
+    .lg-cta {
+        visibility: visible;
+    }
+
+    .site-links > a {
+        font-size: 1.2rem;
+    }
+}
