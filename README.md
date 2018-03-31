@@ -4,4 +4,4 @@ Simple page thrown together when our company had a scheduled platform upgrade. C
 
 In action: 
 
-![DebtTrader Scheduled Platform Upgrade with countdown](https://media.giphy.com/media/4HicC9qMHXCvq3ojMA/giphy.gif)
+<img src="https://media.giphy.com/media/4HicC9qMHXCvq3ojMA/giphy.gif" alt="DebtTrader Scheduled Platform Upgrade with countdown" style="width:100vw;">
